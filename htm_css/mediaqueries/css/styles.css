@@ -1,0 +1,64 @@
+*,::after,::before {
+  box-sizing: border-box
+}
+
+body {
+  background-image: url("../img/skyscraper.png");
+  background-repeat: repeat;
+  background-color: #EEE;
+  color: #F7FFF7;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #BBDBB4;
+  width: 100%;
+  padding: 10px;
+}
+
+header h1 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+main {
+  background-color: rgba(78, 118, 205, 0.468);
+  width: 100%;
+  padding: 2em;
+}
+
+article {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #D56AA0;
+  padding: 10px;
+  width: 90%;
+  box-shadow: 10px 10px 0px #861657;
+}
+
+article a {
+  display: block;
+  text-decoration: none;
+  color: #F7FFF7;
+  border-bottom: 1px dotted #F7FFF7;
+  padding: 10px;
+}
+
+footer {
+  background-color: #BBDBB4;
+  width: 100%;
+  padding: 10px;
+}
+
+footer section {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+}

@@ -1,0 +1,60 @@
+body {
+  background-image: url("../img/spiration-dark.png");
+  background-repeat: repeat;
+  background-color: #444;
+  color: #F7FFF7;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #247BA0;
+  width: 100%;
+  padding: 10px;
+}
+
+header h1 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+main {
+  background-color: rgba(36, 123, 160, 0.468);
+  width: 100%;
+  padding: 2em;
+}
+
+article {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #F7567C;
+  padding: 10px;
+  width: 80%;
+  box-shadow: 10px 10px 0px #000;
+}
+
+article a {
+  display: block;
+  text-decoration: none;
+  color: #F7FFF7;
+  border-bottom: 1px dotted #F7FFF7;
+  padding: 10px;
+}
+
+footer {
+  background-color: #247BA0;
+  width: 100%;
+  padding: 10px;
+}
+
+footer section {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+}
